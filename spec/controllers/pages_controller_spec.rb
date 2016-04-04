@@ -9,7 +9,7 @@ RSpec.describe PagesController, type: :controller do
   end
 
   describe "GET #home" do
-    it "returns http success" do
+    it "devrait réussir" do
       get :home
       expect(response).to have_http_status(:success)
     end
@@ -21,7 +21,7 @@ RSpec.describe PagesController, type: :controller do
   end
 
   describe "GET #contact" do
-    it "returns http success" do
+    it "devrait réussir" do
       get :contact
       expect(response).to have_http_status(:success)
     end
@@ -33,7 +33,7 @@ RSpec.describe PagesController, type: :controller do
   end
 
   describe "GET #about" do
-    it "returns http success" do
+    it "devrait réussir" do
       get :about
       expect(response).to have_http_status(:success)
     end
@@ -45,7 +45,7 @@ RSpec.describe PagesController, type: :controller do
   end
 
   describe "GET #help" do
-    it "returns http success" do
+    it "devrait réussir" do
       get :help
       expect(response).to have_http_status(:success)
     end
